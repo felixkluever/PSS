@@ -6,16 +6,156 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>305</width>
+    <height>415</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>PSS-Plane Spotting Sorter</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <layout class="QHBoxLayout" name="mainHorizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="centralLayout">
+        <item>
+         <widget class="QLabel" name="centralImageViewLabel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>placeholder for an image to be displayed here</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+          <property name="margin">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="imageNamePreviewLabel">
+          <property name="text">
+           <string>Lufthansa A320-200 D-AIZH HAM (1) Star Alliance Livery</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="buttonLayout">
+        <item>
+         <widget class="QLabel" name="airlineLabel">
+          <property name="text">
+           <string>Airline</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="airlineComboBox"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="airportLabel">
+          <property name="text">
+           <string>Airport</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="airportComboBox"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="aircraftLabel">
+          <property name="text">
+           <string>Aircraft</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="aircraftComboBox"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="regestrationLabel">
+          <property name="text">
+           <string>Registration</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="regestrationLineEdit"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="specialRemarkLabel">
+          <property name="text">
+           <string>Special Remark</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="specialRemarkLineEdit"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="confirmPushButton">
+          <property name="text">
+           <string>Confirm</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="numberOfImagesLabel">
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>1111 images | 1111 accepted | 1111 rejected</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="imageLayout"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>305</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPSS_Plane_Spotting_Sorter">
+    <property name="title">
+     <string>PSS - Plane Spotting Sorter</string>
+    </property>
+   </widget>
+   <addaction name="menuPSS_Plane_Spotting_Sorter"/>
+  </widget>
  </widget>
  <resources/>
  <connections/>
