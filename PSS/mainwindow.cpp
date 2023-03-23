@@ -7,9 +7,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    QImage image = QImage("/Users/felixkluver/Desktop/Virgin A330-900 G-VTOM LHR (5).JPG");
-    QPixmap map = QPixmap();
-    map.convertFromImage(image);
+
+    QPixmap map = QPixmap("/Users/felixkluver/Desktop/Virgin A330-900 G-VTOM LHR (5).JPG");
 
     ui->pictureTestLabel->setPixmap(map);
     ui->pictureTestLabel->setScaledContents(true);
