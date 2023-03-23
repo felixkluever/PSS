@@ -20,6 +20,45 @@
       <item>
        <layout class="QVBoxLayout" name="centralLayout">
         <item>
+         <layout class="QHBoxLayout" name="iconButtonLayout">
+          <item>
+           <widget class="QPushButton" name="backButton">
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="forwardButton">
+            <property name="text">
+             <string>Forward</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="revertButton">
+            <property name="text">
+             <string>Revert</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="acceptButton">
+            <property name="text">
+             <string>Accept</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="denyButton">
+            <property name="text">
+             <string>Deny</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
          <widget class="QLabel" name="centralImageViewLabel">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -136,7 +175,22 @@
      </layout>
     </item>
     <item row="0" column="0">
-     <layout class="QVBoxLayout" name="imageLayout"/>
+     <layout class="QVBoxLayout" name="previewLayout">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>test</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>
