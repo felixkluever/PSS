@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>305</width>
+    <width>763</width>
     <height>415</height>
    </rect>
   </property>
@@ -177,7 +177,13 @@
     <item row="0" column="0">
      <layout class="QVBoxLayout" name="previewLayout">
       <item>
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="pictureTestLabel">
+        <property name="maximumSize">
+         <size>
+          <width>160</width>
+          <height>90</height>
+         </size>
+        </property>
         <property name="text">
          <string>TextLabel</string>
         </property>
@@ -199,7 +205,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>305</width>
+     <width>763</width>
      <height>22</height>
     </rect>
    </property>

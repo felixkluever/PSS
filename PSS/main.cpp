@@ -17,7 +17,8 @@ int main(int argc, char *argv[])
             a.installTranslator(&translator);
             break;
         }
-    }
+    }    
+
     MainWindow w;
     w.show();
     return a.exec();
